@@ -540,7 +540,7 @@ function selectFeedback(label, value) {
 }
 
 function sendToGAS() {
-  if (!GAS_URL || GAS_URL === 'PASTE_YOUR_GAS_URL_HERE') return;
+  if (!GAS_URL || GAS_URL === 'https://script.google.com/macros/s/AKfycbx0VeOhHlYb4LV8aHE6uBVBXd1GC7dsrTbz6-IBiEznpIk4pet33x6H7Fl3zRTQGbI8/exec') return;
   const scaleNames = ['Страх разоблачения', 'Атрибуция успеха', 'Сверхусилие', 'Обесценивание', 'Избегание'];
   const payload = {
     timestamp: new Date().toISOString(),
